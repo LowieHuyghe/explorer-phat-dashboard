@@ -1,0 +1,1 @@
+-e git+ssh://git@github.com/LowieHuyghe/script-core.git@master#egg=script-core
