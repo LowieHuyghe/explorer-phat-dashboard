@@ -3,6 +3,8 @@
 A dashboard for Explorer PHAT (Explorer HAT) to read and control the
 inputs, outputs, analogs and motors remotely.
 
+![](http://i.imgur.com/JKqhkmX.gif)
+
 ## Requirements
 
 * Raspberry Pi with Explorer PHAT/HAT attached
