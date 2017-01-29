@@ -1,7 +1,7 @@
 
 from explorerphatdashboard.frames.explorerphat import ExplorerPhat
 from explorerphatdashboard.frames.main import Main
-from scriptcore.console.guiscript import GuiScript
+from scriptcore.guiscript import GuiScript
 
 
 class Dashboard(GuiScript):
