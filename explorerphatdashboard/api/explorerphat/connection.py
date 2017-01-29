@@ -4,7 +4,7 @@ import random
 import string
 import time
 import threading
-from scriptcore.console.basescript import BaseScript
+from scriptcore.basescript import BaseScript
 
 
 class Connection(object):
