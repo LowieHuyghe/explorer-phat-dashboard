@@ -1,6 +1,6 @@
 
-from api.explorerphat.connection import Connection
-from frames.views.main import Main as MainView
+from explorerphatdashboard.api.explorerphat.connection import Connection
+from explorerphatdashboard.frames.views.main import Main as MainView
 from scriptcore.console.asciimatics.framelogic import FrameLogic
 
 

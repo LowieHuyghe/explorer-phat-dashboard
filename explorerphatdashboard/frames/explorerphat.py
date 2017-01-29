@@ -1,14 +1,14 @@
 
 import time
 from threading import Thread
-from api.explorerphat.analog import Analog as ApiAnalog
-from api.explorerphat.connection import Connection
-from api.explorerphat.input import Input as ApiInput
-from api.explorerphat.motor import Motor as ApiMotor
-from api.explorerphat.output import Output as ApiOutput
-from frames.views.connecting import Connecting as ConnectingView
-from frames.views.disconnecting import Disconnecting as DisconnectingView
-from frames.views.explorerphat import ExplorerPhat as ExplorerPhatView
+from explorerphatdashboard.api.explorerphat.analog import Analog as ApiAnalog
+from explorerphatdashboard.api.explorerphat.connection import Connection
+from explorerphatdashboard.api.explorerphat.input import Input as ApiInput
+from explorerphatdashboard.api.explorerphat.motor import Motor as ApiMotor
+from explorerphatdashboard.api.explorerphat.output import Output as ApiOutput
+from explorerphatdashboard.frames.views.connecting import Connecting as ConnectingView
+from explorerphatdashboard.frames.views.disconnecting import Disconnecting as DisconnectingView
+from explorerphatdashboard.frames.views.explorerphat import ExplorerPhat as ExplorerPhatView
 from scriptcore.console.asciimatics.framelogic import FrameLogic
 
 
