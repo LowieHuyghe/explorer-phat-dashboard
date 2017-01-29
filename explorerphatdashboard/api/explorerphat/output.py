@@ -1,5 +1,5 @@
 
-from connection import Connection
+from explorerphatdashboard.api.explorerphat.connection import Connection
 
 
 class Output(object):
