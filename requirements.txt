@@ -1,1 +1,10 @@
-git+ssh://git@github.com/LowieHuyghe/script-core.git@master
+appdirs==1.4.0
+asciimatics==1.7.2
+future==0.16.0
+olefile==0.44
+packaging==16.8
+Pillow==4.0.0
+pyfiglet==0.7.5
+pyparsing==2.1.10
+-e git+git@github.com:LowieHuyghe/script-core.git#egg=scriptcore
+six==1.10.0
