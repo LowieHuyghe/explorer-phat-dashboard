@@ -6,13 +6,17 @@ from scriptcore.guiscript import GuiScript
 
 class Dashboard(GuiScript):
 
-    def __init__(self, base_path):
+    def __init__(self, base_path, arguments=None):
         """
         Construct the script
         :param base_path:   The base path
+        :param arguments:   The arguments
         """
 
-        super(Dashboard, self).__init__(base_path)
+        title = 'Explorer Phat Dashboard'
+        description = 'A dashboard for Explorer PHAT (Explorer HAT)'
+
+        super(Dashboard, self).__init__(base_path, title, description, arguments=arguments)
 
         self.config.load_from_ini(self.get_path('config.ini'))
 
